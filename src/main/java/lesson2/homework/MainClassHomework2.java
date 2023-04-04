@@ -5,14 +5,14 @@ import java.util.Scanner;
 public class MainClassHomework2 {
     public static void main(String[] args) {
         //1. Напишите метод, который принимает на вход строку (String) и определяет является ли строка палиндромом (возвращает boolean значение).
-        Task1();
+        System.out.println(Task1());
 
     }
 
     private static boolean Task1() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Введите строку: ");
-        int num = scanner.nextInt();
+        String s = scanner.nextLine();
         StringBuilder sb = new StringBuilder();
         int i = 0;
         int j = sb.length() - 1;
@@ -21,9 +21,10 @@ public class MainClassHomework2 {
                 i++;
                 j--;
             } else {
-                return true;
+                return false;
             }
-        return false;
+        return true;
+
     }
 
 }
