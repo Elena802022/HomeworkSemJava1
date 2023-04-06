@@ -21,10 +21,10 @@ public class MainClassHomework3Task2 {
         int sum = 0;
         int avg = 0;
         for (int i = 0; i < list.size(); i++) {
-            if (list.get(i) > sum) {
+
                 sum = sum + list.get(i);
                 avg = sum / list.size();
-            }
+
 
 
         }
