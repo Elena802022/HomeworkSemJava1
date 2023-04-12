@@ -11,7 +11,7 @@ public class MainClassHomework3 {
         task1();
     }
 
-    private static void task1() {
+    public static void task1() {
         List<Integer> list = new ArrayList<>();
         list.add(0, 5);
         list.add(1, 18);
