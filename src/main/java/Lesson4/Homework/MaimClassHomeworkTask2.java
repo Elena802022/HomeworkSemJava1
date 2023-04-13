@@ -1,9 +1,9 @@
 package Lesson4.Homework;
 /*2. Пусть дан LinkedList с несколькими элементами. Реализуйте метод, который вернет
         “перевернутый” список.*/
-import java.util.*;
 
-import static Lesson5.MainClassLesson5.task;
+import java.util.LinkedList;
+import java.util.Stack;
 
 public class MaimClassHomeworkTask2 {
     public static void main(String[] args) {

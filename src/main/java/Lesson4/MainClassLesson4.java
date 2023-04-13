@@ -2,8 +2,6 @@ package Lesson4;
 
 import java.util.LinkedList;
 import java.util.Scanner;
-
-import static Lesson5.MainClassLesson5.task;
 /*
 Принимает от пользователя строку виды text-num.
 Нужно расплитить строку по -, сохранить text в связный список на позицию num.
